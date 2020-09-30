@@ -23,7 +23,7 @@ function Sync-OUs {
         C:\PS> SyncOUs -BaseOU "CN=Users,DC=domain,DC=local"
 
         .LINK
-        Online version: https://github.com/mavhc/powershell/ShadowGroupsSync.ps1
+        Online version: https://github.com/mavhc/powershell
 
   #>
   $SubOUs = Get-ADOrganizationalUnit -SearchBase $BaseOU -SearchScope OneLevel -Filter *
